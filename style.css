@@ -78,7 +78,7 @@
   }
 
 
-  .nav-ber, .banner, .Curriculum-section{
+  .nav-bar, .banner, .curriculum-section, main{
     max-width: 1400px;
     margin: 0 auto;
   }
@@ -93,11 +93,12 @@
   /* Banner section */
 
 .banner{
-    width: 1158px;
+    width: 1215px;
     height: 575px;
     display: flex;
     align-items: center;
     margin-top: 20px;
+    justify-content: space-between;
 
 }
 .banner-title{
@@ -133,7 +134,7 @@
     display: flex;
     margin-top: 80px;
     margin-bottom: 80px;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 30px;
 }
 .curriculums{
@@ -183,11 +184,89 @@
     color: #8700FF;
 }
 
+.arow-btn{
+  width: 60px;
+  height: 60px;
+  background-color: #FEA301;
+  color: #ffff;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: 600;
+  
+}
+.arow-btn-container{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px; 
+}
+
+/* main section  */
+main{
+  background-image: url(images/bg.png);
+  background: rgb(255,248,240);
+  background: linear-gradient(177deg, rgba(255,248,240,1) 0%);;
+  height: 800px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.main-title{
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.main-imagr-section{
+  display: flex;
+}
+.main-image{
+  height: 630px;
+  width: 540px;
+  background-color: #fff;
+  border-radius: 16px;
+  margin-left: 130px;
+  margin-right: 18px;
+  border: 1px #413e3e
+}
+.main-image-description{
+  margin-left: 37px;
+  margin-right: 54px;
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.main-images{
+  display: grid;
+  grid-template-columns: 291px 291px;
+  column-gap: 18px;
+  row-gap: 18px;
+}
+.image{
+  background-color: #fff;
+  border-radius: 16px;
+  border: 1px #413e3e;
+}
+.image-description{
+  margin-left: 37px;
+  margin-right: 54px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.image-btn{
+  width: 174px;
+  height: 38px;
+  border-radius: 45px;
+  margin-left: 35px;
+  margin-top: -80px;
+  background-color: #05D4DF;
+}
+
+
   /* responsive style  */
  @media screen and (max-width: 576px) {
-    .nav-bar{
+    .nav-bar, .banner, .curriculum-section, .curriculum{
         flex-direction: column;
-        display: block;
+        /* display: block; */
     }
    
     .nav-bar, .toggle-btn{

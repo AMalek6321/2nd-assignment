@@ -78,7 +78,7 @@
   }
 
 
-  .nav-bar, .banner, .curriculum-section, main{
+  .nav-bar, .banner, .curriculum-section, main, footer{
     max-width: 1400px;
     margin: 0 auto;
   }
@@ -200,12 +200,14 @@
   padding-bottom: 60px; 
 }
 
+
 /* main section  */
 main{
   background-image: url(images/bg.png);
   background: rgb(255,248,240);
   background: linear-gradient(177deg, rgba(255,248,240,1) 0%);;
-  height: 800px;
+  height: 900px;
+  width: auto;
   padding-top: 30px;
   padding-bottom: 60px;
 }
@@ -224,7 +226,7 @@ main{
   width: 540px;
   background-color: #fff;
   border-radius: 16px;
-  margin-left: 130px;
+  margin-left: 120px;
   margin-right: 18px;
   border: 1px #413e3e
 }
@@ -260,8 +262,71 @@ main{
   margin-top: -80px;
   background-color: #05D4DF;
 }
+.main-section-btn{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
 
 
+/* footer style  */
+
+
+footer{
+  height: 500px;
+  background-color: #01ACFD;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 139px;
+
+}
+.footer-and-title{
+  display: flex;
+  height: 80px;
+  width: 206px;
+  margin-bottom: 3px;
+  align-items: center;
+}
+.footer-image-title{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+.footer-image-description{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+.footer-item{
+  list-style: none;
+  margin-top: 20px;
+  
+}
+.footer-link{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+.footer-about-school{
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+}
+.keep-in-touch{
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+}
+.footer-icon{
+  border: 1px solid black;
+  border-radius: 5px;
+}
   /* responsive style  */
  @media screen and (max-width: 576px) {
     .nav-bar, .banner, .curriculum-section, .curriculum{

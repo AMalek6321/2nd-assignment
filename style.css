@@ -105,7 +105,7 @@
 
 .banner{
     max-width: 75.62rem;
-    height: 35.93rem;
+    max-height: 35.93rem;
     display: flex;
     align-items: center;
     margin-top: 20px;
@@ -284,7 +284,7 @@ main{
 
 
 footer{
-  height: 31.25rem;
+  min-height: 31.25rem;
   background-color: #01ACFD;
 }
 
@@ -339,5 +339,46 @@ footer{
 }
   /* responsive style  */
  @media screen and (max-width: 576px) {
+   *{
+    margin: 0 auto;
+    
+   }
+   .nav-bar, .nav-links, .banner, .curriculum, .footer-container{
+    flex-direction: column;
+   }
+   .nav-links{
+    display: none;
+   }
+   .btn-prymary{
+    margin-bottom: 50px;
+   }
    
+   .marquee-using{
+    display: flex;
+    justify-content: center
+    }
+   .banner{
+    justify-items: center;
+    margin: 10px 30px;
+    } 
+    .hero-kid{
+      margin-right: 47px;
+    }
+.curriculum-section{
+  margin-top: 500px;
+  
+}
+.arow-btn-container{
+  display: none;
+}
+.main-image{
+  display: none;
+}
+.main-images{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.footer-container{
+  height: ;
+}
  }

@@ -14,8 +14,8 @@
     display: flex;
   }
   .btn-prymary{
-    height: 50px;
-    width: 197px;
+    height: 3.12rem;
+    width: 12.31rem;
     background-color: #FEA301;
     color: #ffff;
     border-radius: 12px;
@@ -24,8 +24,8 @@
     
   }
   .btn-prymary-2{
-    height: 50px;
-    width: 197px;
+    height: 3.12rem;
+    width: 12.31rem;
     background-color: #000000;
     color: #ffff;
     border-radius: 12px;
@@ -36,15 +36,15 @@
 
   /* nav ber style  */
   .nav-bar{
-    justify-content: space-around;
-    height: 102px;
+    justify-content: space-between;
+    height: 6.38rem;
     padding-top: 20px;
     padding-bottom: 20px;
     align-items: center;
   }
  .school-logo{
-    height: 62px;
-    width: 62px;
+    max-height: 3.89rem;
+    width: 3.89rem;
  }
 
 .logo-text{
@@ -78,11 +78,22 @@
   }
 
 
-  .nav-bar, .banner, .curriculum-section, main, footer{
-    max-width: 1400px;
+  .nav-bar, .banner, .curriculum-section, main, footer, .marquee-using{
+    max-width: 75.62rem;
     margin: 0 auto;
   }
-
+.marquee-text{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #8700FF;
+  background-color: #64C8FF;
+  border-radius: 5px;
+  
+}
+.marquee-using{
+  display: flex;
+  justify-content: center;
+}
   .toggle-btn{
     color: #fff;
     font-size: 1.5rem;
@@ -93,8 +104,8 @@
   /* Banner section */
 
 .banner{
-    width: 1215px;
-    height: 575px;
+    max-width: 75.62rem;
+    height: 35.93rem;
     display: flex;
     align-items: center;
     margin-top: 20px;
@@ -102,8 +113,8 @@
 
 }
 .banner-title{
-    font-size: 56px;
-    font-weight: 700px;
+    font-size: 3.5rem;
+    font-weight: 700;
 }
 .Empowering{
     color: #FEA301;
@@ -114,34 +125,34 @@
 
 .banner-description{
     font-size: 20px;
-    font-weight: 200px;
+    font-weight: 200;
 
 }
 .hero-kid{
-    margin-left: 50px;
+    margin-left: 3.12rem;
 }
 
 .curriculum-section{
     background: url(images/bg.png)
 }
 .curriculum-title{
-    margin-top: 60px;
+    margin-top: 3.75rem;
     text-align: center;
     font-weight: 700;
-    font-size: 46px;
+    font-size: 2.89rem;
 }
 .curriculum{
     display: flex;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     justify-content: space-evenly;
-    gap: 30px;
+    gap: 1.89rem;
 }
 .curriculums{
     align-items: center;
     text-align: center;
-    height: 476px;
-    width: 367px;
+    height: 29.75rem;
+    max-width: 22.93rem;
     border: 2px solid rgb(247, 247, 247);
     border-radius: 18px;
     box-shadow: 10px;
@@ -159,16 +170,16 @@
     background: linear-gradient(76deg, rgba(249,249,251,1) 0%, rgba(246,239,254,1) 95%);
 }
 .curriculum-images{
-    width: 136px;
-    height: 136px;
-    padding-top: 52px;
-    padding-left: 115px;
-    padding-right: 115px;
+    max-width: 8.5rem;
+    height: 8.5rem;
+    padding-top: 3.25rem;
+    padding-left: 7.19rem;
+    padding-right: 7.19rem;
 }
 
 .curriculum-a{
-    width: 79px;
-    height: 18px;
+    max-width: 4.96rem;
+    height: 1.12rem;
     font-weight: 700;
     font-size: 18px;
     text-decoration: none;
@@ -185,8 +196,8 @@
 }
 
 .arow-btn{
-  width: 60px;
-  height: 60px;
+  max-width: 3.75rem;
+  height: 3.75rem;
   background-color: #FEA301;
   color: #ffff;
   border-radius: 50%;
@@ -197,7 +208,7 @@
 .arow-btn-container{
   display: flex;
   justify-content: center;
-  padding-bottom: 60px; 
+  padding-bottom: 3.75rem; 
 }
 
 
@@ -206,40 +217,40 @@ main{
   background-image: url(images/bg.png);
   background: rgb(255,248,240);
   background: linear-gradient(177deg, rgba(255,248,240,1) 0%);;
-  height: 900px;
+  height: 56.25rem;
   width: auto;
-  padding-top: 30px;
-  padding-bottom: 60px;
+  padding-top: 1.88rem;
+  padding-bottom: 3.75rem;
 }
 .main-title{
   font-size: 46px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 
-.main-imagr-section{
+.main-images-section{
   display: flex;
+  justify-content: center;
 }
 .main-image{
-  height: 630px;
-  width: 540px;
+  height: 39.37rem;
+  max-width: 33.75rem;
   background-color: #fff;
   border-radius: 16px;
-  margin-left: 120px;
   margin-right: 18px;
   border: 1px #413e3e
 }
 .main-image-description{
-  margin-left: 37px;
-  margin-right: 54px;
-  margin-top: 30px;
+  margin-left: 2.31rem;
+  margin-right: 3.38rem;
+  margin-top: 1.88rem;
   font-size: 15px;
   font-weight: 500;
 }
 .main-images{
   display: grid;
-  grid-template-columns: 291px 291px;
+  grid-template-columns: 18.19rem 18.19rem;
   column-gap: 18px;
   row-gap: 18px;
 }
@@ -249,23 +260,23 @@ main{
   border: 1px #413e3e;
 }
 .image-description{
-  margin-left: 37px;
-  margin-right: 54px;
+  margin-left: 2.31rem;
+  margin-right: 3.38rem;
   font-size: 15px;
   font-weight: 700;
 }
 .image-btn{
-  width: 174px;
-  height: 38px;
+  max-width: 10.88rem;
+  height: 2.38rem;
   border-radius: 45px;
-  margin-left: 35px;
-  margin-top: -80px;
+  margin-left: 2.19rem;
+  margin-top: -5rem;
   background-color: #05D4DF;
 }
 .main-section-btn{
   text-align: center;
-  margin-top: 80px;
-  margin-bottom: 60px;
+  margin-top: 5rem;
+  margin-bottom: 3.75rem;
 }
 
 
@@ -273,22 +284,21 @@ main{
 
 
 footer{
-  height: 500px;
+  height: 31.25rem;
   background-color: #01ACFD;
 }
 
 .footer-container{
   display: flex;
   justify-content: space-around;
-  align-items: center;
   margin: 0 auto;
-  padding: 139px;
+  padding: 8.69rem;
 
 }
 .footer-and-title{
   display: flex;
-  height: 80px;
-  width: 206px;
+  height: 5rem;
+  max-width: 12.88rem;
   margin-bottom: 3px;
   align-items: center;
 }
@@ -329,20 +339,5 @@ footer{
 }
   /* responsive style  */
  @media screen and (max-width: 576px) {
-    .nav-bar, .banner, .curriculum-section, .curriculum{
-        flex-direction: column;
-        /* display: block; */
-    }
    
-    .nav-bar, .toggle-btn{
-        
-    } 
-    .nav-logo{
-        width: 46px;
-        height: 46px;
-        
-    }
-    .logo-text, .nav-link, .btn-prymary{
-        display: none;
-    }
  }
